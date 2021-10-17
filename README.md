@@ -1,2 +1,2 @@
-# Digital-lock-using-python-tkinter
+# Digital-clock-using-python-tkinter
 Display digital clock using Python Tkinter.
