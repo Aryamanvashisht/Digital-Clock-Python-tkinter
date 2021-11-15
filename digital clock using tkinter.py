@@ -19,12 +19,15 @@ root.config(bg="#081923")
 
 # function for getting the system time in hour
 def hr():
-    string = strftime('%H')
-    #type = int(string)
-    #s = str(type-12)
-    s= str(int(string)-12)
-    lbl_hr.config(text=s)
-    lbl_hr.after(1000,hr)
+        string = strftime('%H')
+        p = int(string)
+        if (p>12):
+            s = str(int(p)-12)
+            lbl_hr.config(text=s)
+            lbl_hr.after(1000,hr)
+        else:
+            lbl_hr.config(text=string)
+            lbl_hr.after(1000,hr)
     
 # function for getting the system time in Minute
 def min():
