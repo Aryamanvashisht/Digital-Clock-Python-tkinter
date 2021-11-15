@@ -10,7 +10,6 @@ root=Tk()
 
 #Giving the title of the display window
 root.title("DIGITAL CLOCK")
-DIGITAL CLOCK")
 
 #Setting the widthxheight+x-axis+y-axis of window
 root.geometry("1350x700+0+0")
